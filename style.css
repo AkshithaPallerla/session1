@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color:bisque;
+}
+
+h1{
+    color: red;
+    background-color: black;
+
+}
+
+p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+/*to call a class we will start with '.'*/
+.abc{
+    background-color: brown;
+}
+/* we can use this class in any attribute fore lists or headers also*/
+
+
+/* to call an id we use '#'*/
+#zyx{
+    font-size: 40px;
+    color: blue;
+}
+/* we should not use id at multiple places*/
+
+.qwe{
+    background-color: blueviolet;
+}
+/*as anchors are inline elements the bg color only applys in block*/
+
+h1{
+    display: inline-block;
+}/*we use this to make only the color appear only for the words present not the total line*/
